@@ -2,8 +2,8 @@
  * 8051 Assembler 
  * Author:  SYEED MOHD AMEEN                                                                      DATE: 01-09-2020
  * Email:   ameensyeed2@gmail.com
+ * License: GNU GPLv3
 */
-
 
 /************************************************************************************/
 /*                             8051 OPCODE TABLE                                    */
