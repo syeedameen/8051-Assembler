@@ -1,6 +1,13 @@
-/* opcode table */
+/**
+ * 8051 Assembler 
+ * Author:  SYEED MOHD AMEEN                                                                      DATE: 01-09-2020
+ * Email:   ameensyeed2@gmail.com
+*/
 
 
+/************************************************************************************/
+/*                             8051 OPCODE TABLE                                    */
+/************************************************************************************/
 #include<stdio.h>
 #include<stdlib.h>
 #include "8051.h"
