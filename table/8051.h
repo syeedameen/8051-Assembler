@@ -2,7 +2,9 @@
 
 #ifndef _TABLE_8051_H
 #define _TABLE_8051_H
-
+#define _Bool bool
+#define TRUE 1
+#define FALSE 0
 
 
 enum {
@@ -32,6 +34,13 @@ struct _table_8051
     char op[3];         /* opcode option */
     char range;         /* range of register or page number (r0,r1,r2,etc)*/
 };
+struct  _psw
+{
+    char *name;
+    int address;
+    bool bit_addressable; 
+};
+
 
 extern struct _table_8051 table_8051[];
 

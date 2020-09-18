@@ -286,6 +286,18 @@ struct _table_8051 table_8051[] =
     {"mov",     {OP_REG,        OP_A,               OP_NONE},          5},        //0xfd      mov r5,a 
     {"mov",     {OP_REG,        OP_A,               OP_NONE},          6},        //0xfe      mov r6,a 
     {"mov",     {OP_REG,        OP_A,               OP_NONE},          7},        //0xff      mov r7,a 
-        
+};
 
+//-------------------------------------------------------//
+//         program status word for assembler            //
+//------------------------------------------------------//
+struct psw
+{
+   {"p0", 0x80,TRUE},
+   {"p1", 0x90,TRUE},
+   {"p2", 0xa0,TRUE},
+   {"p3", 0xb0,TRUE},
+   {"acc",0xe0,TRUE},
+   {"b",  0xf0,FALSE},
+   {"psw",0xd0,TRUE}
 };
