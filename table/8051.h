@@ -2,7 +2,7 @@
 
 #ifndef _TABLE_8051_H
 #define _TABLE_8051_H
-#define _Bool bool
+
 #define TRUE 1
 #define FALSE 0
 
@@ -38,9 +38,8 @@ struct  _psw
 {
     char *name;
     int address;
-    bool bit_addressable; 
+    short bit_addressable;
 };
-
 
 extern struct _table_8051 table_8051[];
 

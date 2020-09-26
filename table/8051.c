@@ -291,7 +291,7 @@ struct _table_8051 table_8051[] =
 //-------------------------------------------------------//
 //         program status word for assembler            //
 //------------------------------------------------------//
-struct psw
+struct _psw psw[]= 
 {
    {"p0", 0x80,TRUE},
    {"p1", 0x90,TRUE},
